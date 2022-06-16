@@ -1,10 +1,12 @@
+// const launches = require('./launches.mongo')
+
 const launches = new Map();
 
 let latestFlightNumber = 100;
 
 const launch = {
   flightNumber: 100,
-  mission: "Keppler Explor XV",
+  mission: "Keppler Explore XV",
   rocket: "Super Star Explorer",
   launchDate: new Date("December 27, 2020"),
   target: "Kepler-442 b",
